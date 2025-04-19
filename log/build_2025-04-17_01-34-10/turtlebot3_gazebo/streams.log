@@ -1,0 +1,7 @@
+[0.016s] Invoking command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/opt/ros/humble /usr/bin/cmake --build /home/madiyar/turtlebot3_ws/build/turtlebot3_gazebo -- -j12 -l12
+[0.129s] [  8%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/src/obstacle2.cpp.o[0m
+[0.133s] [ 16%] [32mBuilding CXX object CMakeFiles/traffic_light_plugin.dir/src/traffic_light_plugin.cpp.o[0m
+[0.133s] [ 25%] [32mBuilding CXX object CMakeFiles/traffic_bar_plugin.dir/src/traffic_bar_plugin.cpp.o[0m
+[0.135s] [ 33%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[0.135s] [ 41%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/src/obstacle1.cpp.o[0m
+[0.136s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacles.dir/src/obstacles.cpp.o[0m

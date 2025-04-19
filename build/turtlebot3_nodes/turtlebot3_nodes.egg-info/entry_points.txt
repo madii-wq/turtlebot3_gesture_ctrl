@@ -1,0 +1,4 @@
+[console_scripts]
+turtlebot3_cmd_vel = turtlebot3_nodes.turtlebot3_cmd_vel:main
+turtlebot3_gesture_publisher = turtlebot3_nodes.turtlebot3_gesture_publisher:main
+

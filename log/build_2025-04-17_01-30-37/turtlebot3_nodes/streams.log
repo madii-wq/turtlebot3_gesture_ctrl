@@ -1,0 +1,46 @@
+[0.890s] Invoking command in '/home/madiyar/turtlebot3_ws/src/turtlebot3_nodes': PYTHONPATH=/home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_nodes build --build-base /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build install --record /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/install.log --single-version-externally-managed install_data
+[1.218s] running egg_info
+[1.219s] creating ../../build/turtlebot3_nodes/turtlebot3_nodes.egg-info
+[1.220s] writing ../../build/turtlebot3_nodes/turtlebot3_nodes.egg-info/PKG-INFO
+[1.220s] writing dependency_links to ../../build/turtlebot3_nodes/turtlebot3_nodes.egg-info/dependency_links.txt
+[1.220s] writing entry points to ../../build/turtlebot3_nodes/turtlebot3_nodes.egg-info/entry_points.txt
+[1.221s] writing requirements to ../../build/turtlebot3_nodes/turtlebot3_nodes.egg-info/requires.txt
+[1.221s] writing top-level names to ../../build/turtlebot3_nodes/turtlebot3_nodes.egg-info/top_level.txt
+[1.221s] writing manifest file '../../build/turtlebot3_nodes/turtlebot3_nodes.egg-info/SOURCES.txt'
+[1.223s] reading manifest file '../../build/turtlebot3_nodes/turtlebot3_nodes.egg-info/SOURCES.txt'
+[1.224s] writing manifest file '../../build/turtlebot3_nodes/turtlebot3_nodes.egg-info/SOURCES.txt'
+[1.225s] running build
+[1.225s] running build_py
+[1.225s] creating /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build
+[1.225s] creating /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build/lib
+[1.225s] creating /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build/lib/turtlebot3_nodes
+[1.226s] copying turtlebot3_nodes/turtlebot3_gesture_publisher.py -> /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build/lib/turtlebot3_nodes
+[1.226s] copying turtlebot3_nodes/__init__.py -> /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build/lib/turtlebot3_nodes
+[1.226s] copying turtlebot3_nodes/turtlebot3_cmd_vel.py -> /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build/lib/turtlebot3_nodes
+[1.226s] running install
+[1.226s] running install_lib
+[1.228s] creating /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages/turtlebot3_nodes
+[1.228s] copying /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build/lib/turtlebot3_nodes/turtlebot3_gesture_publisher.py -> /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages/turtlebot3_nodes
+[1.228s] copying /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build/lib/turtlebot3_nodes/__init__.py -> /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages/turtlebot3_nodes
+[1.228s] copying /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build/lib/turtlebot3_nodes/turtlebot3_cmd_vel.py -> /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages/turtlebot3_nodes
+[1.229s] byte-compiling /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages/turtlebot3_nodes/turtlebot3_gesture_publisher.py to turtlebot3_gesture_publisher.cpython-310.pyc
+[1.231s] byte-compiling /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages/turtlebot3_nodes/__init__.py to __init__.cpython-310.pyc
+[1.231s] byte-compiling /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages/turtlebot3_nodes/turtlebot3_cmd_vel.py to turtlebot3_cmd_vel.cpython-310.pyc
+[1.232s] running install_data
+[1.233s] creating /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/share/ament_index
+[1.233s] creating /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/share/ament_index/resource_index
+[1.233s] creating /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/share/ament_index/resource_index/packages
+[1.233s] copying resource/turtlebot3_nodes -> /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/share/ament_index/resource_index/packages
+[1.233s] copying package.xml -> /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/share/turtlebot3_nodes
+[1.234s] creating /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/share/turtlebot3_nodes/model
+[1.234s] creating /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/share/turtlebot3_nodes/model/keypoint_classifier
+[1.234s] copying model/keypoint_classifier/keypoint_classifier_label.csv -> /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/share/turtlebot3_nodes/model/keypoint_classifier
+[1.234s] copying model/keypoint_classifier/keypoint_classifier.tflite -> /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/share/turtlebot3_nodes/model/keypoint_classifier
+[1.234s] creating /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/share/turtlebot3_nodes/launch
+[1.234s] running install_egg_info
+[1.237s] Copying ../../build/turtlebot3_nodes/turtlebot3_nodes.egg-info to /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages/turtlebot3_nodes-0.0.0-py3.10.egg-info
+[1.238s] running install_scripts
+[1.265s] Installing turtlebot3_cmd_vel script to /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/turtlebot3_nodes
+[1.265s] Installing turtlebot3_gesture_publisher script to /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/turtlebot3_nodes
+[1.266s] writing list of installed files to '/home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/install.log'
+[1.313s] Invoked command in '/home/madiyar/turtlebot3_ws/src/turtlebot3_nodes' returned '0': PYTHONPATH=/home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_nodes build --build-base /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build install --record /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/install.log --single-version-externally-managed install_data

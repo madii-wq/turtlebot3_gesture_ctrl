@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/madiyar/turtlebot3_ws/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/madiyar/turtlebot3_ws/src/turtlebot3_msgs:msg/Sound.msg",
+    "/home/madiyar/turtlebot3_ws/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/madiyar/turtlebot3_ws/src/turtlebot3_msgs:srv/Sound.srv",
+    "/home/madiyar/turtlebot3_ws/src/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/madiyar/turtlebot3_ws/src/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

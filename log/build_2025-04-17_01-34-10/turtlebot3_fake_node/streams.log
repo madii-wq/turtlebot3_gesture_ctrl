@@ -1,0 +1,44 @@
+[0.016s] Invoking command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/madiyar/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/madiyar/turtlebot3_ws/install/turtlebot3_fake_node
+[0.099s] -- The C compiler identification is GNU 11.4.0
+[0.185s] -- The CXX compiler identification is GNU 11.4.0
+[0.196s] -- Detecting C compiler ABI info
+[0.304s] -- Detecting C compiler ABI info - done
+[0.314s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.314s] -- Detecting C compile features
+[0.315s] -- Detecting C compile features - done
+[0.319s] -- Detecting CXX compiler ABI info
+[0.445s] -- Detecting CXX compiler ABI info - done
+[0.455s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.456s] -- Detecting CXX compile features
+[0.456s] -- Detecting CXX compile features - done
+[0.462s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.700s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.801s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.869s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.950s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.963s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.981s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.014s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.170s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.217s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.333s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.343s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.592s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.655s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.744s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.791s] -- Looking for pthread.h
+[1.932s] -- Looking for pthread.h - found
+[1.932s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.086s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.088s] -- Found Threads: TRUE  
+[2.191s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.238s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.267s] -- Found tf2_msgs: 0.25.12 (/opt/ros/humble/share/tf2_msgs/cmake)
+[2.372s] -- Found turtlebot3_msgs: 2.3.0 (/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[2.586s] -- Configuring done
+[2.617s] -- Generating done
+[2.626s] -- Build files have been written to: /home/madiyar/turtlebot3_ws/build/turtlebot3_fake_node
+[2.651s] Invoked command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/madiyar/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/madiyar/turtlebot3_ws/install/turtlebot3_fake_node
+[2.654s] Invoking command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/madiyar/turtlebot3_ws/build/turtlebot3_fake_node -- -j12 -l12
+[2.755s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m

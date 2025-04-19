@@ -1,0 +1,486 @@
+[0.000000] (-) TimerEvent: {}
+[0.000697] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000757] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000789] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000814] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000836] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000855] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000874] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000899] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000922] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000940] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000958] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000976] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000995] (-) JobUnselected: {'identifier': 'turtlebot3_nodes'}
+[0.001012] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001030] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001053] (turtlebot3_msgs) JobQueued: {'identifier': 'turtlebot3_msgs', 'dependencies': OrderedDict()}
+[0.001079] (turtlebot3_msgs) JobStarted: {'identifier': 'turtlebot3_msgs'}
+[0.014011] (turtlebot3_msgs) JobProgress: {'identifier': 'turtlebot3_msgs', 'progress': 'cmake'}
+[0.014868] (turtlebot3_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/madiyar/turtlebot3_ws/src/turtlebot3_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs'], 'cwd': '/home/madiyar/turtlebot3_ws/build/turtlebot3_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'madiyar'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/madiyar'), ('OLDPWD', '/home/madiyar/turtlebot3_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '2707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'madiyar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'madiyar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/madiyar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/madiyar-HP-Laptop-15s-eq2xxx:@/tmp/.ICE-unix/2027,unix/madiyar-HP-Laptop-15s-eq2xxx:/tmp/.ICE-unix/2027'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/028025c8_a0cc_4445_b0e7_e8e280bbb9ce'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H40742'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_simulations:/home/madiyar/turtlebot3_ws/install/turtlebot3_bringup:/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2:/home/madiyar/turtlebot3_ws/install/turtlebot3_fake_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_examples:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/madiyar/turtlebot3_ws/build/turtlebot3_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3:/home/madiyar/turtlebot3_ws/install/turtlebot3_simulations:/home/madiyar/turtlebot3_ws/install/turtlebot3_bringup:/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2:/home/madiyar/turtlebot3_ws/install/turtlebot3_fake_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_examples:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.099047] (-) TimerEvent: {}
+[0.114296] (turtlebot3_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199250] (-) TimerEvent: {}
+[0.200125] (turtlebot3_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.212612] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299416] (-) TimerEvent: {}
+[0.333332] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.343369] (turtlebot3_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.343692] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.344133] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.348173] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399584] (-) TimerEvent: {}
+[0.484500] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.494724] (turtlebot3_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.495114] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.495702] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.498920] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[0.499688] (-) TimerEvent: {}
+[0.600059] (-) TimerEvent: {}
+[0.700557] (-) TimerEvent: {}
+[0.729857] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.800755] (-) TimerEvent: {}
+[0.815972] (turtlebot3_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.900970] (-) TimerEvent: {}
+[0.911122] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.925450] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.937768] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.955912] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.978747] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001083] (-) TimerEvent: {}
+[1.029145] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.043436] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.059685] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.101293] (-) TimerEvent: {}
+[1.201808] (-) TimerEvent: {}
+[1.302350] (-) TimerEvent: {}
+[1.402843] (-) TimerEvent: {}
+[1.503381] (-) TimerEvent: {}
+[1.535672] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[1.539345] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[1.542820] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[1.546742] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.603532] (-) TimerEvent: {}
+[1.703979] (-) TimerEvent: {}
+[1.804368] (-) TimerEvent: {}
+[1.904753] (-) TimerEvent: {}
+[2.005206] (-) TimerEvent: {}
+[2.105586] (-) TimerEvent: {}
+[2.142042] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.205733] (-) TimerEvent: {}
+[2.306170] (-) TimerEvent: {}
+[2.378998] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.406330] (-) TimerEvent: {}
+[2.417207] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.419460] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.457119] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.457859] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.458172] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.458315] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.485225] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.506449] (-) TimerEvent: {}
+[2.591260] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[2.594591] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[2.606774] (-) TimerEvent: {}
+[2.611300] (turtlebot3_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.678115] (turtlebot3_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.696607] (turtlebot3_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/madiyar/turtlebot3_ws/build/turtlebot3_msgs\n'}
+[2.706987] (-) TimerEvent: {}
+[2.710265] (turtlebot3_msgs) CommandEnded: {'returncode': 0}
+[2.711315] (turtlebot3_msgs) JobProgress: {'identifier': 'turtlebot3_msgs', 'progress': 'build'}
+[2.713590] (turtlebot3_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/madiyar/turtlebot3_ws/build/turtlebot3_msgs', '--', '-j12', '-l12'], 'cwd': '/home/madiyar/turtlebot3_ws/build/turtlebot3_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'madiyar'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/madiyar'), ('OLDPWD', '/home/madiyar/turtlebot3_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '2707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'madiyar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'madiyar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/madiyar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/madiyar-HP-Laptop-15s-eq2xxx:@/tmp/.ICE-unix/2027,unix/madiyar-HP-Laptop-15s-eq2xxx:/tmp/.ICE-unix/2027'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/028025c8_a0cc_4445_b0e7_e8e280bbb9ce'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H40742'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_simulations:/home/madiyar/turtlebot3_ws/install/turtlebot3_bringup:/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2:/home/madiyar/turtlebot3_ws/install/turtlebot3_fake_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_examples:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/madiyar/turtlebot3_ws/build/turtlebot3_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3:/home/madiyar/turtlebot3_ws/install/turtlebot3_simulations:/home/madiyar/turtlebot3_ws/install/turtlebot3_bringup:/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2:/home/madiyar/turtlebot3_ws/install/turtlebot3_fake_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_examples:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[2.780481] (turtlebot3_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.798340] (turtlebot3_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.807126] (-) TimerEvent: {}
+[2.810326] (turtlebot3_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_turtlebot3_msgs\n'}
+[2.907267] (-) TimerEvent: {}
+[3.007684] (-) TimerEvent: {}
+[3.108106] (-) TimerEvent: {}
+[3.143334] (turtlebot3_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.144024] (turtlebot3_msgs) StdoutLine: {'line': b'creating turtlebot3_msgs.egg-info\n'}
+[3.144305] (turtlebot3_msgs) StdoutLine: {'line': b'writing turtlebot3_msgs.egg-info/PKG-INFO\n'}
+[3.144550] (turtlebot3_msgs) StdoutLine: {'line': b'writing dependency_links to turtlebot3_msgs.egg-info/dependency_links.txt\n'}
+[3.144758] (turtlebot3_msgs) StdoutLine: {'line': b'writing top-level names to turtlebot3_msgs.egg-info/top_level.txt\n'}
+[3.145043] (turtlebot3_msgs) StdoutLine: {'line': b"writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'\n"}
+[3.147729] (turtlebot3_msgs) StdoutLine: {'line': b"reading manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'\n"}
+[3.148334] (turtlebot3_msgs) StdoutLine: {'line': b"writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'\n"}
+[3.189860] (turtlebot3_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlebot3_msgs_egg\n'}
+[3.208251] (-) TimerEvent: {}
+[3.308635] (-) TimerEvent: {}
+[3.409187] (-) TimerEvent: {}
+[3.509773] (-) TimerEvent: {}
+[3.610422] (-) TimerEvent: {}
+[3.711023] (-) TimerEvent: {}
+[3.811626] (-) TimerEvent: {}
+[3.912232] (-) TimerEvent: {}
+[4.012816] (-) TimerEvent: {}
+[4.026155] (turtlebot3_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sensor_state__functions.c.o\x1b[0m\n'}
+[4.032556] (turtlebot3_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sound__functions.c.o\x1b[0m\n'}
+[4.033324] (turtlebot3_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/version_info__functions.c.o\x1b[0m\n'}
+[4.036230] (turtlebot3_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/sound__functions.c.o\x1b[0m\n'}
+[4.036499] (turtlebot3_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/dqn__functions.c.o\x1b[0m\n'}
+[4.037581] (turtlebot3_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/action/detail/patrol__functions.c.o\x1b[0m\n'}
+[4.049401] (turtlebot3_msgs) StdoutLine: {'line': b'[ 11%] Built target turtlebot3_msgs__cpp\n'}
+[4.068007] (turtlebot3_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.068951] (turtlebot3_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.071166] (turtlebot3_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.112949] (-) TimerEvent: {}
+[4.213325] (-) TimerEvent: {}
+[4.218939] (turtlebot3_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libturtlebot3_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.282194] (turtlebot3_msgs) StdoutLine: {'line': b'[ 16%] Built target turtlebot3_msgs__rosidl_generator_c\n'}
+[4.298561] (turtlebot3_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.298826] (turtlebot3_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.300657] (turtlebot3_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.313438] (-) TimerEvent: {}
+[4.413778] (-) TimerEvent: {}
+[4.514152] (-) TimerEvent: {}
+[4.614503] (-) TimerEvent: {}
+[4.714905] (-) TimerEvent: {}
+[4.815246] (-) TimerEvent: {}
+[4.915594] (-) TimerEvent: {}
+[4.954671] (turtlebot3_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/sensor_state__type_support.cpp.o\x1b[0m\n'}
+[4.957459] (turtlebot3_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/sound__type_support.cpp.o\x1b[0m\n'}
+[4.957692] (turtlebot3_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/version_info__type_support.cpp.o\x1b[0m\n'}
+[4.957809] (turtlebot3_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/sound__type_support.cpp.o\x1b[0m\n'}
+[4.958028] (turtlebot3_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/action/patrol__type_support.cpp.o\x1b[0m\n'}
+[4.958140] (turtlebot3_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/dqn__type_support.cpp.o\x1b[0m\n'}
+[5.015714] (-) TimerEvent: {}
+[5.117994] (-) TimerEvent: {}
+[5.194116] (turtlebot3_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/sensor_state__type_support.cpp.o\x1b[0m\n'}
+[5.194448] (turtlebot3_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/sound__type_support.cpp.o\x1b[0m\n'}
+[5.218140] (-) TimerEvent: {}
+[5.318629] (-) TimerEvent: {}
+[5.321147] (turtlebot3_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/sensor_state__type_support.cpp.o\x1b[0m\n'}
+[5.395255] (turtlebot3_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/sound__type_support.cpp.o\x1b[0m\n'}
+[5.418775] (-) TimerEvent: {}
+[5.473666] (turtlebot3_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/version_info__type_support.cpp.o\x1b[0m\n'}
+[5.477671] (turtlebot3_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/sound__type_support.cpp.o\x1b[0m\n'}
+[5.478734] (turtlebot3_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/version_info__type_support.cpp.o\x1b[0m\n'}
+[5.484211] (turtlebot3_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/sound__type_support.cpp.o\x1b[0m\n'}
+[5.487304] (turtlebot3_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/dqn__type_support.cpp.o\x1b[0m\n'}
+[5.487633] (turtlebot3_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/dqn__type_support.cpp.o\x1b[0m\n'}
+[5.520033] (-) TimerEvent: {}
+[5.520417] (turtlebot3_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/sensor_state__type_support.cpp.o\x1b[0m\n'}
+[5.550527] (turtlebot3_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/action/detail/patrol__type_support.cpp.o\x1b[0m\n'}
+[5.553249] (turtlebot3_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/action/patrol__type_support.cpp.o\x1b[0m\n'}
+[5.553820] (turtlebot3_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/sound__type_support.cpp.o\x1b[0m\n'}
+[5.620167] (-) TimerEvent: {}
+[5.658693] (turtlebot3_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.720316] (-) TimerEvent: {}
+[5.738655] (turtlebot3_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sensor_state__type_support.c.o\x1b[0m\n'}
+[5.760081] (turtlebot3_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/sensor_state__type_support_c.cpp.o\x1b[0m\n'}
+[5.771653] (turtlebot3_msgs) StdoutLine: {'line': b'[ 53%] Built target turtlebot3_msgs__rosidl_typesupport_c\n'}
+[5.794500] (turtlebot3_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/version_info__type_support.cpp.o\x1b[0m\n'}
+[5.802004] (turtlebot3_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.820472] (-) TimerEvent: {}
+[5.820862] (turtlebot3_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sound__type_support.c.o\x1b[0m\n'}
+[5.891506] (turtlebot3_msgs) StdoutLine: {'line': b'[ 57%] Built target turtlebot3_msgs__rosidl_typesupport_cpp\n'}
+[5.891867] (turtlebot3_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/version_info__type_support.c.o\x1b[0m\n'}
+[5.912184] (turtlebot3_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/sound__type_support_c.cpp.o\x1b[0m\n'}
+[5.923001] (-) TimerEvent: {}
+[5.932099] (turtlebot3_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/version_info__type_support_c.cpp.o\x1b[0m\n'}
+[5.954604] (turtlebot3_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/sound__type_support.cpp.o\x1b[0m\n'}
+[5.976723] (turtlebot3_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/sound__type_support.c.o\x1b[0m\n'}
+[6.023144] (-) TimerEvent: {}
+[6.066480] (turtlebot3_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/dqn__type_support.c.o\x1b[0m\n'}
+[6.123292] (-) TimerEvent: {}
+[6.166230] (turtlebot3_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/action/detail/patrol__type_support.c.o\x1b[0m\n'}
+[6.223449] (-) TimerEvent: {}
+[6.228036] (turtlebot3_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/dqn__type_support.cpp.o\x1b[0m\n'}
+[6.278663] (turtlebot3_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/action/detail/dds_fastrtps/patrol__type_support.cpp.o\x1b[0m\n'}
+[6.296119] (turtlebot3_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking C shared library libturtlebot3_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.324240] (-) TimerEvent: {}
+[6.330482] (turtlebot3_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/sound__type_support_c.cpp.o\x1b[0m\n'}
+[6.334936] (turtlebot3_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/dqn__type_support_c.cpp.o\x1b[0m\n'}
+[6.337126] (turtlebot3_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/action/detail/patrol__type_support_c.cpp.o\x1b[0m\n'}
+[6.383553] (turtlebot3_msgs) StdoutLine: {'line': b'[ 76%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c\n'}
+[6.424368] (-) TimerEvent: {}
+[6.524810] (-) TimerEvent: {}
+[6.625307] (-) TimerEvent: {}
+[6.687542] (turtlebot3_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.725454] (-) TimerEvent: {}
+[6.825857] (-) TimerEvent: {}
+[6.831673] (turtlebot3_msgs) StdoutLine: {'line': b'[ 77%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.926010] (-) TimerEvent: {}
+[6.951976] (turtlebot3_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.026193] (-) TimerEvent: {}
+[7.046026] (turtlebot3_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.083852] (turtlebot3_msgs) StdoutLine: {'line': b'[ 80%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.126370] (-) TimerEvent: {}
+[7.174189] (turtlebot3_msgs) StdoutLine: {'line': b'[ 80%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.208698] (turtlebot3_msgs) StdoutLine: {'line': b'[ 80%] Built target turtlebot3_msgs\n'}
+[7.226525] (-) TimerEvent: {}
+[7.247696] (turtlebot3_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.326682] (-) TimerEvent: {}
+[7.427119] (-) TimerEvent: {}
+[7.527540] (-) TimerEvent: {}
+[7.627967] (-) TimerEvent: {}
+[7.728402] (-) TimerEvent: {}
+[7.828798] (-) TimerEvent: {}
+[7.929248] (-) TimerEvent: {}
+[8.029637] (-) TimerEvent: {}
+[8.130052] (-) TimerEvent: {}
+[8.230477] (-) TimerEvent: {}
+[8.330865] (-) TimerEvent: {}
+[8.431309] (-) TimerEvent: {}
+[8.531693] (-) TimerEvent: {}
+[8.632215] (-) TimerEvent: {}
+[8.732689] (-) TimerEvent: {}
+[8.833144] (-) TimerEvent: {}
+[8.933500] (-) TimerEvent: {}
+[9.033826] (-) TimerEvent: {}
+[9.134245] (-) TimerEvent: {}
+[9.236426] (-) TimerEvent: {}
+[9.267384] (turtlebot3_msgs) StdoutLine: {'line': b'[ 81%] Built target turtlebot3_msgs__py\n'}
+[9.295067] (turtlebot3_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/action/_patrol_s.c.o\x1b[0m\n'}
+[9.295325] (turtlebot3_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/msg/_sound_s.c.o\x1b[0m\n'}
+[9.295404] (turtlebot3_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/msg/_version_info_s.c.o\x1b[0m\n'}
+[9.295475] (turtlebot3_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/srv/_dqn_s.c.o\x1b[0m\n'}
+[9.295547] (turtlebot3_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/msg/_sensor_state_s.c.o\x1b[0m\n'}
+[9.296070] (turtlebot3_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/srv/_sound_s.c.o\x1b[0m\n'}
+[9.336562] (-) TimerEvent: {}
+[9.436992] (-) TimerEvent: {}
+[9.486637] (turtlebot3_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/libturtlebot3_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[9.537169] (-) TimerEvent: {}
+[9.540421] (turtlebot3_msgs) StdoutLine: {'line': b'[ 91%] Built target turtlebot3_msgs__rosidl_generator_py\n'}
+[9.565861] (turtlebot3_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.566077] (turtlebot3_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.566337] (turtlebot3_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.637313] (-) TimerEvent: {}
+[9.712051] (turtlebot3_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.712718] (turtlebot3_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.713207] (turtlebot3_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.737454] (-) TimerEvent: {}
+[9.764279] (turtlebot3_msgs) StdoutLine: {'line': b'[100%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[9.764496] (turtlebot3_msgs) StdoutLine: {'line': b'[100%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext\n'}
+[9.767620] (turtlebot3_msgs) StdoutLine: {'line': b'[100%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.783873] (turtlebot3_msgs) CommandEnded: {'returncode': 0}
+[9.784454] (turtlebot3_msgs) JobProgress: {'identifier': 'turtlebot3_msgs', 'progress': 'install'}
+[9.795080] (turtlebot3_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/madiyar/turtlebot3_ws/build/turtlebot3_msgs'], 'cwd': '/home/madiyar/turtlebot3_ws/build/turtlebot3_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'madiyar'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/madiyar'), ('OLDPWD', '/home/madiyar/turtlebot3_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '2707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'madiyar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'madiyar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/madiyar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/madiyar-HP-Laptop-15s-eq2xxx:@/tmp/.ICE-unix/2027,unix/madiyar-HP-Laptop-15s-eq2xxx:/tmp/.ICE-unix/2027'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/028025c8_a0cc_4445_b0e7_e8e280bbb9ce'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H40742'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_simulations:/home/madiyar/turtlebot3_ws/install/turtlebot3_bringup:/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2:/home/madiyar/turtlebot3_ws/install/turtlebot3_fake_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_examples:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/madiyar/turtlebot3_ws/build/turtlebot3_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3:/home/madiyar/turtlebot3_ws/install/turtlebot3_simulations:/home/madiyar/turtlebot3_ws/install/turtlebot3_bringup:/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2:/home/madiyar/turtlebot3_ws/install/turtlebot3_fake_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_examples:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[9.803807] (turtlebot3_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.804369] (turtlebot3_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.804634] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_msgs\n'}
+[9.816740] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__functions.h\n'}
+[9.828528] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__struct.h\n'}
+[9.837601] (-) TimerEvent: {}
+[9.839451] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__type_support.h\n'}
+[9.852113] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/patrol.h\n'}
+[9.863476] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__functions.h\n'}
+[9.876223] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__struct.h\n'}
+[9.887123] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__type_support.h\n'}
+[9.899072] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__functions.h\n'}
+[9.911279] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__struct.h\n'}
+[9.922417] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__type_support.h\n'}
+[9.934189] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__functions.h\n'}
+[9.937714] (-) TimerEvent: {}
+[9.945833] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__struct.h\n'}
+[9.957247] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__type_support.h\n'}
+[9.968329] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.979287] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sensor_state.h\n'}
+[9.991570] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sound.h\n'}
+[10.003241] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/version_info.h\n'}
+[10.014672] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__functions.h\n'}
+[10.025251] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__struct.h\n'}
+[10.036281] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__type_support.h\n'}
+[10.037821] (-) TimerEvent: {}
+[10.047314] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__functions.h\n'}
+[10.058798] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__struct.h\n'}
+[10.070626] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__type_support.h\n'}
+[10.081510] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/dqn.h\n'}
+[10.093558] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/sound.h\n'}
+[10.105737] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.sh\n'}
+[10.116245] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.dsv\n'}
+[10.127076] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_c.h\n'}
+[10.138162] (-) TimerEvent: {}
+[10.138460] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_c.h\n'}
+[10.149028] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_c.h\n'}
+[10.160649] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_c.h\n'}
+[10.172798] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.184334] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_fastrtps_c.h\n'}
+[10.195780] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_c.h\n'}
+[10.209561] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__builder.hpp\n'}
+[10.221670] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__struct.hpp\n'}
+[10.233283] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__traits.hpp\n'}
+[10.238287] (-) TimerEvent: {}
+[10.244874] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__type_support.hpp\n'}
+[10.256011] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/patrol.hpp\n'}
+[10.268029] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__builder.hpp\n'}
+[10.278797] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__struct.hpp\n'}
+[10.290263] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__traits.hpp\n'}
+[10.301176] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__type_support.hpp\n'}
+[10.313568] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__builder.hpp\n'}
+[10.324818] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__struct.hpp\n'}
+[10.337579] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__traits.hpp\n'}
+[10.338408] (-) TimerEvent: {}
+[10.349014] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__type_support.hpp\n'}
+[10.359621] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__builder.hpp\n'}
+[10.371904] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__struct.hpp\n'}
+[10.384023] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__traits.hpp\n'}
+[10.396677] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__type_support.hpp\n'}
+[10.408336] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.419454] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sensor_state.hpp\n'}
+[10.430354] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sound.hpp\n'}
+[10.438536] (-) TimerEvent: {}
+[10.441062] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/version_info.hpp\n'}
+[10.452648] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__builder.hpp\n'}
+[10.463563] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__struct.hpp\n'}
+[10.474335] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__traits.hpp\n'}
+[10.485329] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__type_support.hpp\n'}
+[10.496486] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__builder.hpp\n'}
+[10.507174] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__struct.hpp\n'}
+[10.518004] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__traits.hpp\n'}
+[10.529573] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__type_support.hpp\n'}
+[10.538648] (-) TimerEvent: {}
+[10.540306] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/dqn.hpp\n'}
+[10.550966] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/sound.hpp\n'}
+[10.563894] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.574275] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.585305] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.596765] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.608034] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.620270] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.631974] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.638781] (-) TimerEvent: {}
+[10.644606] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_c.h\n'}
+[10.655309] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_c.h\n'}
+[10.666983] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_c.h\n'}
+[10.677824] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_c.h\n'}
+[10.690943] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.701707] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_c.h\n'}
+[10.712425] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_c.h\n'}
+[10.725300] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.735826] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.738915] (-) TimerEvent: {}
+[10.746679] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.758154] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.768318] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.779479] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.792272] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.sh\n'}
+[10.803662] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.dsv\n'}
+[10.816152] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs-2.3.0-py3.10.egg-info/PKG-INFO\n'}
+[10.827029] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs-2.3.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.838581] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs-2.3.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.839035] (-) TimerEvent: {}
+[10.851454] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs-2.3.0-py3.10.egg-info/top_level.txt\n'}
+[10.863407] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/__init__.py\n'}
+[10.875446] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[10.886911] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.899086] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.910487] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action/__init__.py\n'}
+[10.922229] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action/_patrol.py\n'}
+[10.934250] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action/_patrol_s.c\n'}
+[10.939173] (-) TimerEvent: {}
+[10.945533] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/libturtlebot3_msgs__rosidl_generator_py.so\n'}
+[10.956103] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/__init__.py\n'}
+[10.974054] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sensor_state.py\n'}
+[10.986606] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sensor_state_s.c\n'}
+[10.997793] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sound.py\n'}
+[11.009101] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sound_s.c\n'}
+[11.020596] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_version_info.py\n'}
+[11.032012] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_version_info_s.c\n'}
+[11.039295] (-) TimerEvent: {}
+[11.042565] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/__init__.py\n'}
+[11.053997] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_dqn.py\n'}
+[11.066180] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_dqn_s.c\n'}
+[11.077654] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_sound.py\n'}
+[11.089290] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_sound_s.c\n'}
+[11.100701] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.112253] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.125015] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.136511] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.136961] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.137471] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.137977] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.idl\n'}
+[11.139372] (-) TimerEvent: {}
+[11.149862] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.idl\n'}
+[11.161363] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.idl\n'}
+[11.173523] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.idl\n'}
+[11.185411] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.idl\n'}
+[11.197252] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.idl\n'}
+[11.209081] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.msg\n'}
+[11.220354] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.msg\n'}
+[11.232679] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.msg\n'}
+[11.239509] (-) TimerEvent: {}
+[11.244854] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.srv\n'}
+[11.257744] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Request.msg\n'}
+[11.270305] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Response.msg\n'}
+[11.282152] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.srv\n'}
+[11.294127] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn_Request.msg\n'}
+[11.306185] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn_Response.msg\n'}
+[11.318825] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.action\n'}
+[11.331120] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot3_msgs\n'}
+[11.339638] (-) TimerEvent: {}
+[11.344172] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot3_msgs\n'}
+[11.356617] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.sh\n'}
+[11.367999] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.dsv\n'}
+[11.379930] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.sh\n'}
+[11.390956] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.dsv\n'}
+[11.402515] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.bash\n'}
+[11.414135] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.sh\n'}
+[11.425026] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.zsh\n'}
+[11.435873] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.dsv\n'}
+[11.439760] (-) TimerEvent: {}
+[11.448067] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.dsv\n'}
+[11.458873] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/packages/turtlebot3_msgs\n'}
+[11.470107] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[11.482388] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.493794] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.504898] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.516190] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.528001] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.539302] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.539897] (-) TimerEvent: {}
+[11.551630] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig.cmake\n'}
+[11.562945] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig-version.cmake\n'}
+[11.575056] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.xml\n'}
+[11.587243] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so\n'}
+[11.588770] (turtlebot3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so" to ""\n'}
+[11.589023] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[11.589369] (turtlebot3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.589577] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.590014] (turtlebot3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.590180] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so\n'}
+[11.590531] (turtlebot3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.590651] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so\n'}
+[11.590992] (turtlebot3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so" to ""\n'}
+[11.591096] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[11.591602] (turtlebot3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.591700] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so\n'}
+[11.592101] (turtlebot3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[11.633760] (turtlebot3_msgs) StdoutLine: {'line': b"Listing '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs'...\n"}
+[11.634014] (turtlebot3_msgs) StdoutLine: {'line': b"Compiling '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/__init__.py'...\n"}
+[11.634158] (turtlebot3_msgs) StdoutLine: {'line': b"Listing '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action'...\n"}
+[11.634282] (turtlebot3_msgs) StdoutLine: {'line': b"Compiling '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action/__init__.py'...\n"}
+[11.634406] (turtlebot3_msgs) StdoutLine: {'line': b"Compiling '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action/_patrol.py'...\n"}
+[11.634528] (turtlebot3_msgs) StdoutLine: {'line': b"Listing '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg'...\n"}
+[11.634651] (turtlebot3_msgs) StdoutLine: {'line': b"Compiling '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/__init__.py'...\n"}
+[11.634772] (turtlebot3_msgs) StdoutLine: {'line': b"Compiling '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sensor_state.py'...\n"}
+[11.634910] (turtlebot3_msgs) StdoutLine: {'line': b"Compiling '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sound.py'...\n"}
+[11.635053] (turtlebot3_msgs) StdoutLine: {'line': b"Compiling '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_version_info.py'...\n"}
+[11.635176] (turtlebot3_msgs) StdoutLine: {'line': b"Listing '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv'...\n"}
+[11.635297] (turtlebot3_msgs) StdoutLine: {'line': b"Compiling '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/__init__.py'...\n"}
+[11.635452] (turtlebot3_msgs) StdoutLine: {'line': b"Compiling '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_dqn.py'...\n"}
+[11.635576] (turtlebot3_msgs) StdoutLine: {'line': b"Compiling '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_sound.py'...\n"}
+[11.638814] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_py.so\n'}
+[11.639819] (turtlebot3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_py.so" to ""\n'}
+[11.640131] (-) TimerEvent: {}
+[11.640386] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_cExport.cmake\n'}
+[11.640642] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.640870] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.641040] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.641182] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_cppExport.cmake\n'}
+[11.641317] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.641450] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.641679] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.641822] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.641958] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport.cmake\n'}
+[11.642064] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.642164] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.642264] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.642366] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[11.642490] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.642587] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_pyExport.cmake\n'}
+[11.642702] (turtlebot3_msgs) StdoutLine: {'line': b'-- Installing: /home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.645029] (turtlebot3_msgs) CommandEnded: {'returncode': 0}
+[11.661665] (turtlebot3_msgs) JobEnded: {'identifier': 'turtlebot3_msgs', 'rc': 0}
+[11.662641] (-) EventReactorShutdown: {}

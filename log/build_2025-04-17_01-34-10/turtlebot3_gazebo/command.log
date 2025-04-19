@@ -1,0 +1,1 @@
+Invoking command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/opt/ros/humble /usr/bin/cmake --build /home/madiyar/turtlebot3_ws/build/turtlebot3_gazebo -- -j12 -l12

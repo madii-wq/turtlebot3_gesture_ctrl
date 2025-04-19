@@ -1,0 +1,1 @@
+/home/madiyar/turtlebot3_ws/src/turtlebot3_nodes/launch/gesture_recognition.launch.py

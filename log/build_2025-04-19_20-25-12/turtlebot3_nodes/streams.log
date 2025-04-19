@@ -1,0 +1,18 @@
+[1.753s] Invoking command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_nodes': PYTHONPATH=/home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build --no-deps symlink_data
+[2.136s] running develop
+[2.397s] running egg_info
+[2.397s] writing turtlebot3_nodes.egg-info/PKG-INFO
+[2.397s] writing dependency_links to turtlebot3_nodes.egg-info/dependency_links.txt
+[2.398s] writing entry points to turtlebot3_nodes.egg-info/entry_points.txt
+[2.398s] writing requirements to turtlebot3_nodes.egg-info/requires.txt
+[2.398s] writing top-level names to turtlebot3_nodes.egg-info/top_level.txt
+[2.400s] reading manifest file 'turtlebot3_nodes.egg-info/SOURCES.txt'
+[2.402s] writing manifest file 'turtlebot3_nodes.egg-info/SOURCES.txt'
+[2.404s] running build_ext
+[2.404s] Creating /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages/turtlebot3-nodes.egg-link (link to .)
+[2.405s] Installing turtlebot3_cmd_vel script to /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/turtlebot3_nodes
+[2.405s] Installing turtlebot3_gesture_publisher script to /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/turtlebot3_nodes
+[2.406s] 
+[2.406s] Installed /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes
+[2.406s] running symlink_data
+[2.460s] Invoked command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_nodes' returned '0': PYTHONPATH=/home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build --no-deps symlink_data

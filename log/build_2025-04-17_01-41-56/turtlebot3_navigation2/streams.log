@@ -1,0 +1,33 @@
+[0.060s] Invoking command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/madiyar/turtlebot3_ws/build/turtlebot3_navigation2 -- -j12 -l12
+[0.593s] Invoked command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/madiyar/turtlebot3_ws/build/turtlebot3_navigation2 -- -j12 -l12
+[0.596s] Invoking command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/madiyar/turtlebot3_ws/build/turtlebot3_navigation2
+[0.997s] -- Install configuration: ""
+[0.998s] -- Execute custom install script
+[0.998s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[0.999s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[0.999s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[0.999s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[0.999s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[0.999s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[0.999s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[1.000s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[1.000s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[1.000s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.000s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.000s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.000s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.000s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.000s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.000s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.002s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.002s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.003s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.003s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.005s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.006s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.006s] -- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.006s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.006s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.006s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.006s] -- Up-to-date symlink: /home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.054s] Invoked command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/madiyar/turtlebot3_ws/build/turtlebot3_navigation2

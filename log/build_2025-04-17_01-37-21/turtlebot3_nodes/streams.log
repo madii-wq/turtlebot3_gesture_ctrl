@@ -1,0 +1,22 @@
+[1.747s] Invoking command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_nodes': PYTHONPATH=/home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build --no-deps symlink_data --force
+[2.197s] running develop
+[2.496s] running egg_info
+[2.496s] writing turtlebot3_nodes.egg-info/PKG-INFO
+[2.497s] writing dependency_links to turtlebot3_nodes.egg-info/dependency_links.txt
+[2.498s] writing entry points to turtlebot3_nodes.egg-info/entry_points.txt
+[2.498s] writing requirements to turtlebot3_nodes.egg-info/requires.txt
+[2.498s] writing top-level names to turtlebot3_nodes.egg-info/top_level.txt
+[2.503s] reading manifest file 'turtlebot3_nodes.egg-info/SOURCES.txt'
+[2.505s] writing manifest file 'turtlebot3_nodes.egg-info/SOURCES.txt'
+[2.508s] running build_ext
+[2.509s] Creating /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages/turtlebot3-nodes.egg-link (link to .)
+[2.513s] Installing turtlebot3_cmd_vel script to /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/turtlebot3_nodes
+[2.513s] Installing turtlebot3_gesture_publisher script to /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/turtlebot3_nodes
+[2.513s] 
+[2.513s] Installed /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes
+[2.514s] running symlink_data
+[2.515s] symbolically linking /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/resource/turtlebot3_nodes -> /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/share/ament_index/resource_index/packages
+[2.515s] symbolically linking /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/package.xml -> /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/share/turtlebot3_nodes
+[2.516s] symbolically linking /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/model/keypoint_classifier/keypoint_classifier_label.csv -> /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/share/turtlebot3_nodes/model/keypoint_classifier
+[2.516s] symbolically linking /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/model/keypoint_classifier/keypoint_classifier.tflite -> /home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/share/turtlebot3_nodes/model/keypoint_classifier
+[2.574s] Invoked command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_nodes' returned '0': PYTHONPATH=/home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/madiyar/turtlebot3_ws/build/turtlebot3_nodes/build --no-deps symlink_data --force

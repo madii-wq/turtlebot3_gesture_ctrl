@@ -1,0 +1,491 @@
+[0.000000] (-) TimerEvent: {}
+[0.000358] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000431] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000478] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000514] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000539] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000559] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000578] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000596] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000614] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000632] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.000650] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000667] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000685] (-) JobUnselected: {'identifier': 'turtlebot3_nodes'}
+[0.000703] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000720] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000746] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000773] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.016450] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.019091] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/madiyar/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo'], 'cwd': '/home/madiyar/turtlebot3_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'madiyar'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/madiyar'), ('OLDPWD', '/home/madiyar'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '2048'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'madiyar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'madiyar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/madiyar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/madiyar-HP-Laptop-15s-eq2xxx:@/tmp/.ICE-unix/2018,unix/madiyar-HP-Laptop-15s-eq2xxx:/tmp/.ICE-unix/2018'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1fc50d38_0611_4c06_a3c5_bae7357d378d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TRRH52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/madiyar/turtlebot3_ws/build/turtlebot3_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/madiyar/turtlebot3_ws/build/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/build/turtlebot3_example:/home/madiyar/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.088511] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098661] (-) TimerEvent: {}
+[0.199085] (-) TimerEvent: {}
+[0.287147] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.299203] (-) TimerEvent: {}
+[0.320724] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.321093] (turtlebot3_gazebo) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.321236] (turtlebot3_gazebo) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.321360] (turtlebot3_gazebo) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.321506] (turtlebot3_gazebo) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.321635] (turtlebot3_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.321759] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.321878] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.321996] (turtlebot3_gazebo) StderrLine: {'line': b'  CMakeLists.txt:23 (find_package)\n'}
+[0.322113] (turtlebot3_gazebo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.322234] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.374820] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.399410] (-) TimerEvent: {}
+[0.443102] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.448121] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.457960] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.461206] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.473013] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.473659] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.486470] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.486819] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.486977] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.487225] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.487383] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.487675] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.487827] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.487952] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.488077] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.488198] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.488320] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.488485] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.499541] (-) TimerEvent: {}
+[0.599975] (-) TimerEvent: {}
+[0.678770] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.685460] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.686984] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.700082] (-) TimerEvent: {}
+[0.720688] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.740855] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.750876] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.786994] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.800286] (-) TimerEvent: {}
+[0.892382] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.900500] (-) TimerEvent: {}
+[0.922708] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.000685] (-) TimerEvent: {}
+[1.010459] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.010975] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.045998] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.057152] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.090095] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.100867] (-) TimerEvent: {}
+[1.174409] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.175584] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.176174] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.176474] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.176678] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.195549] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.196531] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.197230] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.197767] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.200199] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.200795] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.200928] (-) TimerEvent: {}
+[1.276578] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.301144] (-) TimerEvent: {}
+[1.308680] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.401327] (-) TimerEvent: {}
+[1.410900] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.443808] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.501497] (-) TimerEvent: {}
+[1.527895] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.528259] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.528783] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.540252] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[1.541109] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.581320] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.586823] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.598308] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.601614] (-) TimerEvent: {}
+[1.615251] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.638584] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.697982] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.701741] (-) TimerEvent: {}
+[1.722226] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.767640] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.771641] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.801918] (-) TimerEvent: {}
+[1.902354] (-) TimerEvent: {}
+[1.953972] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.002525] (-) TimerEvent: {}
+[2.018209] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.044204] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.102671] (-) TimerEvent: {}
+[2.149914] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.202783] (-) TimerEvent: {}
+[2.258781] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[2.271455] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/madiyar/turtlebot3_ws/build/turtlebot3_gazebo\n'}
+[2.285088] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[2.286450] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[2.288206] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/madiyar/turtlebot3_ws/build/turtlebot3_gazebo', '--', '-j12', '-l12'], 'cwd': '/home/madiyar/turtlebot3_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'madiyar'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/madiyar'), ('OLDPWD', '/home/madiyar'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '2048'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'madiyar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'madiyar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/madiyar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/madiyar-HP-Laptop-15s-eq2xxx:@/tmp/.ICE-unix/2018,unix/madiyar-HP-Laptop-15s-eq2xxx:/tmp/.ICE-unix/2018'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1fc50d38_0611_4c06_a3c5_bae7357d378d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TRRH52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/madiyar/turtlebot3_ws/build/turtlebot3_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/madiyar/turtlebot3_ws/build/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/build/turtlebot3_example:/home/madiyar/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[2.302904] (-) TimerEvent: {}
+[2.373382] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_plugin.dir/src/traffic_light_plugin.cpp.o\x1b[0m\n'}
+[2.373693] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/src/obstacles.cpp.o\x1b[0m\n'}
+[2.373806] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[2.373900] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/src/obstacle1.cpp.o\x1b[0m\n'}
+[2.373992] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/traffic_bar_plugin.dir/src/traffic_bar_plugin.cpp.o\x1b[0m\n'}
+[2.374133] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/src/obstacle2.cpp.o\x1b[0m\n'}
+[2.403017] (-) TimerEvent: {}
+[2.503387] (-) TimerEvent: {}
+[2.603835] (-) TimerEvent: {}
+[2.704199] (-) TimerEvent: {}
+[2.804509] (-) TimerEvent: {}
+[2.904864] (-) TimerEvent: {}
+[3.005216] (-) TimerEvent: {}
+[3.105614] (-) TimerEvent: {}
+[3.205997] (-) TimerEvent: {}
+[3.306371] (-) TimerEvent: {}
+[3.406737] (-) TimerEvent: {}
+[3.507112] (-) TimerEvent: {}
+[3.607531] (-) TimerEvent: {}
+[3.707981] (-) TimerEvent: {}
+[3.808527] (-) TimerEvent: {}
+[3.908959] (-) TimerEvent: {}
+[4.009394] (-) TimerEvent: {}
+[4.109880] (-) TimerEvent: {}
+[4.210351] (-) TimerEvent: {}
+[4.310804] (-) TimerEvent: {}
+[4.411246] (-) TimerEvent: {}
+[4.511777] (-) TimerEvent: {}
+[4.612188] (-) TimerEvent: {}
+[4.712662] (-) TimerEvent: {}
+[4.813082] (-) TimerEvent: {}
+[4.913537] (-) TimerEvent: {}
+[5.014009] (-) TimerEvent: {}
+[5.114563] (-) TimerEvent: {}
+[5.215012] (-) TimerEvent: {}
+[5.315442] (-) TimerEvent: {}
+[5.415857] (-) TimerEvent: {}
+[5.516269] (-) TimerEvent: {}
+[5.616640] (-) TimerEvent: {}
+[5.717068] (-) TimerEvent: {}
+[5.817566] (-) TimerEvent: {}
+[5.917998] (-) TimerEvent: {}
+[6.018441] (-) TimerEvent: {}
+[6.118859] (-) TimerEvent: {}
+[6.219266] (-) TimerEvent: {}
+[6.319701] (-) TimerEvent: {}
+[6.420162] (-) TimerEvent: {}
+[6.520599] (-) TimerEvent: {}
+[6.621024] (-) TimerEvent: {}
+[6.721456] (-) TimerEvent: {}
+[6.821880] (-) TimerEvent: {}
+[6.922279] (-) TimerEvent: {}
+[7.022718] (-) TimerEvent: {}
+[7.123161] (-) TimerEvent: {}
+[7.223642] (-) TimerEvent: {}
+[7.324074] (-) TimerEvent: {}
+[7.424551] (-) TimerEvent: {}
+[7.525023] (-) TimerEvent: {}
+[7.625475] (-) TimerEvent: {}
+[7.725916] (-) TimerEvent: {}
+[7.826339] (-) TimerEvent: {}
+[7.926763] (-) TimerEvent: {}
+[8.027167] (-) TimerEvent: {}
+[8.127558] (-) TimerEvent: {}
+[8.227959] (-) TimerEvent: {}
+[8.328350] (-) TimerEvent: {}
+[8.428761] (-) TimerEvent: {}
+[8.529161] (-) TimerEvent: {}
+[8.629596] (-) TimerEvent: {}
+[8.730030] (-) TimerEvent: {}
+[8.830485] (-) TimerEvent: {}
+[8.930927] (-) TimerEvent: {}
+[9.031348] (-) TimerEvent: {}
+[9.131781] (-) TimerEvent: {}
+[9.232185] (-) TimerEvent: {}
+[9.332657] (-) TimerEvent: {}
+[9.433083] (-) TimerEvent: {}
+[9.533527] (-) TimerEvent: {}
+[9.633953] (-) TimerEvent: {}
+[9.734374] (-) TimerEvent: {}
+[9.834816] (-) TimerEvent: {}
+[9.935243] (-) TimerEvent: {}
+[10.035671] (-) TimerEvent: {}
+[10.136053] (-) TimerEvent: {}
+[10.236480] (-) TimerEvent: {}
+[10.336883] (-) TimerEvent: {}
+[10.437289] (-) TimerEvent: {}
+[10.537718] (-) TimerEvent: {}
+[10.638119] (-) TimerEvent: {}
+[10.738587] (-) TimerEvent: {}
+[10.839008] (-) TimerEvent: {}
+[10.939401] (-) TimerEvent: {}
+[11.039803] (-) TimerEvent: {}
+[11.140204] (-) TimerEvent: {}
+[11.240640] (-) TimerEvent: {}
+[11.341102] (-) TimerEvent: {}
+[11.441600] (-) TimerEvent: {}
+[11.542087] (-) TimerEvent: {}
+[11.642537] (-) TimerEvent: {}
+[11.742934] (-) TimerEvent: {}
+[11.843359] (-) TimerEvent: {}
+[11.943810] (-) TimerEvent: {}
+[12.044212] (-) TimerEvent: {}
+[12.144648] (-) TimerEvent: {}
+[12.245049] (-) TimerEvent: {}
+[12.345473] (-) TimerEvent: {}
+[12.445873] (-) TimerEvent: {}
+[12.546273] (-) TimerEvent: {}
+[12.646717] (-) TimerEvent: {}
+[12.747129] (-) TimerEvent: {}
+[12.847527] (-) TimerEvent: {}
+[12.947937] (-) TimerEvent: {}
+[13.048345] (-) TimerEvent: {}
+[13.148775] (-) TimerEvent: {}
+[13.249201] (-) TimerEvent: {}
+[13.349616] (-) TimerEvent: {}
+[13.450010] (-) TimerEvent: {}
+[13.550452] (-) TimerEvent: {}
+[13.650850] (-) TimerEvent: {}
+[13.751283] (-) TimerEvent: {}
+[13.851724] (-) TimerEvent: {}
+[13.952154] (-) TimerEvent: {}
+[14.052559] (-) TimerEvent: {}
+[14.152978] (-) TimerEvent: {}
+[14.253375] (-) TimerEvent: {}
+[14.353808] (-) TimerEvent: {}
+[14.454204] (-) TimerEvent: {}
+[14.554623] (-) TimerEvent: {}
+[14.655035] (-) TimerEvent: {}
+[14.755467] (-) TimerEvent: {}
+[14.855930] (-) TimerEvent: {}
+[14.956369] (-) TimerEvent: {}
+[15.056810] (-) TimerEvent: {}
+[15.157222] (-) TimerEvent: {}
+[15.257646] (-) TimerEvent: {}
+[15.358048] (-) TimerEvent: {}
+[15.458455] (-) TimerEvent: {}
+[15.558820] (-) TimerEvent: {}
+[15.659207] (-) TimerEvent: {}
+[15.759604] (-) TimerEvent: {}
+[15.859994] (-) TimerEvent: {}
+[15.960441] (-) TimerEvent: {}
+[16.060870] (-) TimerEvent: {}
+[16.161295] (-) TimerEvent: {}
+[16.261738] (-) TimerEvent: {}
+[16.362170] (-) TimerEvent: {}
+[16.462649] (-) TimerEvent: {}
+[16.563051] (-) TimerEvent: {}
+[16.663482] (-) TimerEvent: {}
+[16.763910] (-) TimerEvent: {}
+[16.864360] (-) TimerEvent: {}
+[16.964789] (-) TimerEvent: {}
+[17.065202] (-) TimerEvent: {}
+[17.165610] (-) TimerEvent: {}
+[17.266026] (-) TimerEvent: {}
+[17.316589] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[17.366169] (-) TimerEvent: {}
+[17.466567] (-) TimerEvent: {}
+[17.567047] (-) TimerEvent: {}
+[17.667540] (-) TimerEvent: {}
+[17.767965] (-) TimerEvent: {}
+[17.868406] (-) TimerEvent: {}
+[17.968877] (-) TimerEvent: {}
+[18.069338] (-) TimerEvent: {}
+[18.142817] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[18.169483] (-) TimerEvent: {}
+[18.269882] (-) TimerEvent: {}
+[18.275146] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle2.so\x1b[0m\n'}
+[18.351675] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[18.370038] (-) TimerEvent: {}
+[18.430286] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library libtraffic_light_plugin.so\x1b[0m\n'}
+[18.463958] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libtraffic_bar_plugin.so\x1b[0m\n'}
+[18.470206] (-) TimerEvent: {}
+[18.473947] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target turtlebot3_drive\n'}
+[18.570463] (-) TimerEvent: {}
+[18.671038] (-) TimerEvent: {}
+[18.692797] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle1\n'}
+[18.740091] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle2\n'}
+[18.771201] (-) TimerEvent: {}
+[18.787219] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacles\n'}
+[18.867144] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target traffic_bar_plugin\n'}
+[18.871268] (-) TimerEvent: {}
+[18.930179] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target traffic_light_plugin\n'}
+[18.948952] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[18.950379] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[18.965759] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/madiyar/turtlebot3_ws/build/turtlebot3_gazebo'], 'cwd': '/home/madiyar/turtlebot3_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'madiyar'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/madiyar'), ('OLDPWD', '/home/madiyar'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '2048'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'madiyar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'madiyar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/madiyar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/madiyar-HP-Laptop-15s-eq2xxx:@/tmp/.ICE-unix/2018,unix/madiyar-HP-Laptop-15s-eq2xxx:/tmp/.ICE-unix/2018'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1fc50d38_0611_4c06_a3c5_bae7357d378d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TRRH52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/madiyar/turtlebot3_ws/build/turtlebot3_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/madiyar/turtlebot3_ws/build/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/build/turtlebot3_example:/home/madiyar/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_navigation2:/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk:/home/madiyar/turtlebot3_ws/install/turtlebot3_teleop:/home/madiyar/turtlebot3_ws/install/turtlebot3_nodes:/home/madiyar/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[18.971354] (-) TimerEvent: {}
+[18.976863] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.978180] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.978604] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[18.991260] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[19.003271] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_robot.launch.py\n'}
+[19.014361] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_spawn_turtlebot3.launch.py\n'}
+[19.025439] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[19.036222] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[19.046325] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace_2020.launch.py\n'}
+[19.056353] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[19.066499] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[19.071502] (-) TimerEvent: {}
+[19.076460] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[19.087671] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[19.099465] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[19.110577] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[19.136922] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/checker.png\n'}
+[19.148704] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/scripts/checker.material\n'}
+[19.159899] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/textures/checker.png\n'}
+[19.170909] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/model.config\n'}
+[19.171568] (-) TimerEvent: {}
+[19.181796] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/model.sdf\n'}
+[19.193041] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/scripts/course.material\n'}
+[19.204384] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/textures/course.png\n'}
+[19.215133] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/model.config\n'}
+[19.226228] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/model.sdf\n'}
+[19.237179] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/scripts/traffic_bar.material\n'}
+[19.248279] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/textures/traffic_bar.png\n'}
+[19.259255] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/model.config\n'}
+[19.270110] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/model.sdf\n'}
+[19.271687] (-) TimerEvent: {}
+[19.281382] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/scripts/traffic_construction.material\n'}
+[19.293041] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/textures/traffic_construction.png\n'}
+[19.304829] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/model.config\n'}
+[19.315811] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/model.sdf\n'}
+[19.326986] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/scripts/traffic_intersection.material\n'}
+[19.337972] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/textures/traffic_intersection.png\n'}
+[19.349430] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/model.config\n'}
+[19.360484] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/model.sdf\n'}
+[19.371559] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/scripts/traffic_is_left.material\n'}
+[19.371801] (-) TimerEvent: {}
+[19.382974] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/textures/traffic_left.png\n'}
+[19.394107] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/model.config\n'}
+[19.405382] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/model.sdf\n'}
+[19.416148] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/scripts/traffic_light.material\n'}
+[19.428209] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light.png\n'}
+[19.439869] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_green.png\n'}
+[19.450783] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_red.png\n'}
+[19.462093] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_yellow.png\n'}
+[19.471953] (-) TimerEvent: {}
+[19.472982] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/model.config\n'}
+[19.484476] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/model.sdf\n'}
+[19.496933] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/scripts/traffic_noentry.material\n'}
+[19.509407] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/textures/traffic_noentry.png\n'}
+[19.521030] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/model.config\n'}
+[19.532044] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/model.sdf\n'}
+[19.544253] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/scripts/traffic_parking.material\n'}
+[19.556073] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/textures/traffic_parking.png\n'}
+[19.566807] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/model.config\n'}
+[19.572086] (-) TimerEvent: {}
+[19.578272] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/model.sdf\n'}
+[19.589760] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/scripts/traffic_pl_left.material\n'}
+[19.600785] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/textures/traffic_pl_left.png\n'}
+[19.612406] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/model.config\n'}
+[19.623531] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/model.sdf\n'}
+[19.634856] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/scripts/traffic_right.material\n'}
+[19.646251] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/textures/traffic_right.png\n'}
+[19.657006] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/model.config\n'}
+[19.667213] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/model.sdf\n'}
+[19.672221] (-) TimerEvent: {}
+[19.678316] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/scripts/traffic_stop.material\n'}
+[19.690518] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/textures/traffic_stop.png\n'}
+[19.701340] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/model.config\n'}
+[19.712388] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/model.sdf\n'}
+[19.723762] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/scripts/tunnel.material\n'}
+[19.735287] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/textures/tunnel.png\n'}
+[19.746090] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/model.config\n'}
+[19.756978] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/model.sdf\n'}
+[19.767982] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf\n'}
+[19.772351] (-) TimerEvent: {}
+[19.779113] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config\n'}
+[19.790572] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf\n'}
+[19.801478] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model-1_4.sdf\n'}
+[19.812955] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.config\n'}
+[19.824028] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.sdf\n'}
+[19.835201] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/burger_base.stl\n'}
+[19.846092] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_base.stl\n'}
+[19.857244] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_pi_base.stl\n'}
+[19.868369] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[19.872479] (-) TimerEvent: {}
+[19.879411] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae\n'}
+[19.891414] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae\n'}
+[19.902585] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.dae\n'}
+[19.913545] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.jpg\n'}
+[19.924571] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/lds.stl\n'}
+[19.935318] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.dae\n'}
+[19.946209] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.jpg\n'}
+[19.958298] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae\n'}
+[19.969501] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[19.972607] (-) TimerEvent: {}
+[19.981626] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[19.993264] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/left_tire.stl\n'}
+[20.004357] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/right_tire.stl\n'}
+[20.015562] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config\n'}
+[20.026778] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[20.037853] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[20.048713] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[20.059173] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[20.070013] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[20.072724] (-) TimerEvent: {}
+[20.080984] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[20.092636] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[20.104367] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[20.116333] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[20.127121] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[20.137822] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[20.148783] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[20.160386] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[20.171064] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[20.172837] (-) TimerEvent: {}
+[20.182229] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[20.192958] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[20.205781] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[20.217529] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[20.230016] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config\n'}
+[20.241372] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf\n'}
+[20.252561] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[20.263396] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[20.272995] (-) TimerEvent: {}
+[20.274407] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[20.285861] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[20.297436] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[20.314889] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[20.327459] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf\n'}
+[20.338319] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf\n'}
+[20.349189] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger_cam.urdf\n'}
+[20.360155] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[20.371021] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf\n'}
+[20.373100] (-) TimerEvent: {}
+[20.382912] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world\n'}
+[20.394935] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autorace_2020.world\n'}
+[20.406054] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world\n'}
+[20.417022] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world\n'}
+[20.429683] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world\n'}
+[20.441009] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world\n'}
+[20.451848] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world\n'}
+[20.462661] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world\n'}
+[20.473223] (-) TimerEvent: {}
+[20.474741] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle1.hpp\n'}
+[20.485314] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle2.hpp\n'}
+[20.496317] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacles.hpp\n'}
+[20.507316] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_bar_plugin.hpp\n'}
+[20.520018] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_light_plugin.hpp\n'}
+[20.531751] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[20.544000] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[20.555881] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[20.568219] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[20.573344] (-) TimerEvent: {}
+[20.579956] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[20.592642] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[20.604284] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[20.615137] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[20.626096] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[20.638812] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[20.649906] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[20.663505] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[20.673471] (-) TimerEvent: {}
+[20.674786] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[20.686326] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.697545] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.708452] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[20.720071] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[20.732029] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/madiyar/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[20.745982] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[20.773633] (-) TimerEvent: {}
+[20.779600] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[20.780566] (-) EventReactorShutdown: {}

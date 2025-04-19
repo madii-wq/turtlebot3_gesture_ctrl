@@ -1,0 +1,28 @@
+[0.965s] Invoking command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_example': CMAKE_PREFIX_PATH=/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/madiyar/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/madiyar/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/madiyar/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[1.344s] running develop
+[1.599s] running egg_info
+[1.599s] creating turtlebot3_example.egg-info
+[1.599s] writing turtlebot3_example.egg-info/PKG-INFO
+[1.600s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[1.600s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[1.600s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[1.600s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[1.600s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.604s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.604s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.606s] running build_ext
+[1.607s] Creating /home/madiyar/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[1.608s] Installing turtlebot3_interactive_marker script to /home/madiyar/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.608s] Installing turtlebot3_obstacle_detection script to /home/madiyar/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.608s] Installing turtlebot3_patrol_client script to /home/madiyar/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.608s] Installing turtlebot3_patrol_server script to /home/madiyar/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.609s] Installing turtlebot3_position_control_pointop_key script to /home/madiyar/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.609s] 
+[1.609s] Installed /home/madiyar/turtlebot3_ws/build/turtlebot3_example
+[1.609s] running symlink_data
+[1.609s] creating /home/madiyar/turtlebot3_ws/install/turtlebot3_example/share/ament_index
+[1.609s] creating /home/madiyar/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index
+[1.610s] creating /home/madiyar/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[1.610s] symbolically linking /home/madiyar/turtlebot3_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/madiyar/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[1.610s] symbolically linking /home/madiyar/turtlebot3_ws/build/turtlebot3_example/package.xml -> /home/madiyar/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example
+[1.670s] Invoked command in '/home/madiyar/turtlebot3_ws/build/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs:/home/madiyar/turtlebot3_ws/install/turtlebot3_node:/home/madiyar/turtlebot3_ws/install/turtlebot3_description:/home/madiyar/turtlebot3_ws/install/turtlebot3_cartographer:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/madiyar/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/madiyar/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/madiyar/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/madiyar/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/madiyar/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
